@@ -25,7 +25,6 @@
 # Use it often:
 # Be a good citizen and include comments, whenever they are helpful.
 
-
 ################################################################################
 # Getting Help
 ################################################################################
@@ -49,11 +48,11 @@ rm(list=ls(all=TRUE))
 
 # Load library of functions.
 # source('MyRcode1.R')
-
+#rm means 'remove'
 # Set working directory.
 # The '<-' operator denotes right-to-left assignment.
 # wdPath <- '/path/to/your/folder'
-wdPath <- 'C:/Users/le279259/Documents/Teaching/GEB6895_Fall2019/GitRepos/demo_03_intro_to_R'
+wdPath <- 'C:/Users/kosidlo.nat/Documents/Programming_Class_Folder/GitRepos/demo_03_intro_to_R'
 setwd(wdPath)
 
 # Check this in unix (doesn't always work in Windows).
@@ -72,9 +71,12 @@ system('mkdir data')
 
 # See what is in the workspace, so that we know what we are saving.
 ls()
+wdPath <- 'C:/Users/kosidlo.nat/Documents/Programming_Class_Folder/GitRepos/demo_03_intro_to_R'
 
 # Save current workspace image.
 workspaceFileName <- 'myWorkspace1'
+wdPath <- 'C:/Users/kosidlo.nat/Documents/Programming_Class_Folder/GEB6895F19/demo_03_intro_to_R'
+wdPath <- 'C:/Users/kosidlo.nat/Documents/Programming_Class_Folder/GEB6895F19/demo_03_intro_to_R'
 workspacePath <- sprintf('%s/%s.RData', wdPath, workspaceFileName)
 save.image(workspacePath)
 
