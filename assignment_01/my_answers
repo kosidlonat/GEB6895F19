@@ -1,11 +1,25 @@
-# example_01.R
-# Write an R function that reads two numbers, multiplies them together and prints out their produc. You could start out with
-# multiply_two <-function(num_1, num_2)
-myvariable1=c(5, 6)
-multiply_two <-variable1
+# Example_01.R
 
-# Write an R function that tells a user that the number they entered is not a 5 or 6. 
-# You can read input from the keyboard with num_in <-readline(prompt="Enter a number: ")
+Read num5, num8
+Set multi to num5*num8
+Write multi
+
+$ int 5, 8, multi;
+$ cin>>5>>8;
+$ multi=5*8;
+cout<<multi<<endl;
+
+# Example_02.R
+
+Read choice
+If(choice<-5)
+Write "your number is 5"
+Else if (choice<- 6)
+Write "your number is 6"
+Else
+Write "your number is not 5 or 6"
+
+#Example_03.R
 
 
 
