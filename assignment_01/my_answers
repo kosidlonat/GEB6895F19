@@ -1,1 +1,11 @@
+# example_01.R
+# Write an R function that reads two numbers, multiplies them together and prints out their produc. You could start out with
+# multiply_two <-function(num_1, num_2)
+myvariable1=c(5, 6)
+multiply_two <-variable1
+
+# Write an R function that tells a user that the number they entered is not a 5 or 6. 
+# You can read input from the keyboard with num_in <-readline(prompt="Enter a number: ")
+
+
 
