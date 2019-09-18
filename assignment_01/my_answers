@@ -51,4 +51,27 @@ While(x<count)
  Write avg
  
  If (A1<A2)
- Set max 
+ Set max to A2
+ Else
+ Set max to A1
+ If(A3>max)
+  Set max to A3
+ If(A4>max)
+  Set max to A4
+ If(A5>max)
+ Set max to A5
+ Write "The max is"
+ Write max
+ 
+ If (A1>A2)
+ Set min to A2
+ Else 
+ Set min to A1
+ If (A3<min)
+ Set min to A3
+ If(A4<min)
+ Set min to A4
+ If(A5<min)
+ Set min to A5
+ Write "The Min is"
+ Write min
